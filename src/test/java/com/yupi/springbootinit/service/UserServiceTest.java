@@ -1,15 +1,16 @@
-package com.yupi.springbootinit.service;
+package com.zs.springbootinit.service;
 
-import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import javax.annotation.Resource;
+
 /**
  * 用户服务测试
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author Zhuang Shuo
+ * 
  */
 @SpringBootTest
 public class UserServiceTest {
@@ -19,7 +20,7 @@ public class UserServiceTest {
 
     @Test
     void userRegister() {
-        String userAccount = "yupi";
+        String userAccount = "zs";
         String userPassword = "";
         String checkPassword = "123456";
         try {
